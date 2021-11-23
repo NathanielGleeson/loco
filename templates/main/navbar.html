@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% load static %}
+<!-- Fixed navbar -->
+	<div id="header-top">       
+		<!--  HEADER TOP -->
+        <div class="container">
+        	<div class="row">
+				<div class="col-md-6"> 
+                    
+                        <div class="text">
+                            
+							<p> (517) 764-6001</p>
+                            
+                        </div>      
+                </div><!-- end -->
+            	<div class="col-md-6">              	
+                   <div class="social text-center pull-right">
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-dribbble"></i></a>
+				<a href="#"><i class="fa fa-flickr"></i></a>
+				<a href="#"><i class="fa fa-github"></i></a>
+			</div>
+                    
+                </div><!-- end -->
+            </div><!-- end .row -->
+           </div> 
+		</div>
+	<div class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+				<a class="navbar-brand" href="{% url 'index' %}">
+					<img src=" {% static 'assets/images/logo.png' %} " alt="Techro HTML5 template"></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right mainNav">
+					<li class="active"><a href="{% url 'index' %}">Home</a></li>
+					<li><a href="{% url 'main:about' %}">About</a></li>
+					<li><a href="{% url 'main:services' %}">Services</a></li>
+					<li><a href="{% url 'main:prices' %}">Price</a></li>
+					<li><a href="{% url 'main:projects' %}">Projects</a></li>
+					<li><a href="{% url 'main:contact' %}">Contact</a></li>
+
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+	<!-- /.navbar -->

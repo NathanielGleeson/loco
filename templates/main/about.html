@@ -1,0 +1,137 @@
+<!--
+Author: ngg
+Author URL: ngg
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interior-Design-Responsive-Website-Templates-Edge">
+    <meta name="author" content="NGG">
+    <title>NGG</title>
+    <link rel="favicon" href=" {% static 'assets/images/favicon.png' %} ">
+    <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <link rel="stylesheet" href=" {% static 'assets/css/bootstrap.min.css' %} ">
+    <link rel="stylesheet" href=" {% static 'assets/css/font-awesome.min.css' %} ">
+    <!-- Custom styles for our template -->
+    <link rel="stylesheet" href=" {% static 'assets/css/bootstrap-theme.css' %} " media="screen">
+    <link rel="stylesheet" href=" {% static 'assets/css/style.css' %} ">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+	<script src=" {% static 'assets/js/html5shiv.js' %} "></script>
+	<script src=" {% static 'assets/js/respond.min.js' %} "></script>
+	<![endif]-->
+</head>
+
+<body>
+    {% include 'main/navbar.html' %}
+
+    <header id="head" class="secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h1>About us</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- container -->
+    <section class="container">
+        <div class="row">
+            <!-- main content -->
+            <section class="col-sm-8 maincontent">
+                <h3>Your Total Solution for Locomotive Engines</h3>
+                <p>
+                    <video src=" {% static 'assets/videos/loco_video.mpg' %} alt="loco_video.mp4" class="img-rounded pull-right" width="300" height="300" poster=" {% static 'assets/images/about.png' %} " controls autoplay>
+                        Your browser does not support HTML5 video. Get the <a href=" {% static 'assets/videos/loco_video.mpg' %} ">MP4 video</a>
+                    </video>
+                    
+                    The Locomotive Company has been selling large-bore diesel engine replacement parts for over 35 years and is an established international supplier.
+                    <p></p>
+                    Our locally owned business can supply you with new off-the-shelf items as well as reconditioned and RTO (running take out) parts.
+                    <p></p>
+                    We specialize in the procurement of parts that are hard-to-find, discontinued, or no longer produced by the original manufacturer.
+
+                    Our knowledgeable employees can perform worldwide on-site inspections and evaluations of your equipment.
+
+                    All new parts come with a warranty, and nearly all parts that leave our manufacturing facility come backed by a warranty. Export (wood) boxing is available upon request.
+
+                    The Locomotive Company is happy to provide quotes to any customers who need immediate attention.
+
+
+
+
+
+                </p>
+                <p>Depending on your situation, good, used, or reconditioned locomotive engine parts can save you time and money. Utilizing our UTEX (unit exchange) program, you can shorten any turnaround and downtime on your equipment.
+                <p></p>
+                With our experience and vast resource library, The Locomotive Company can supply you with in-depth technical knowledge on locomotive engine parts. In many cases, we can provide you with original copies of technical, mechanical, operational, and parts manuals for most manufacturers.
+                <p></p>
+                Our knowledgeable employees can perform worldwide on-site inspections and evaluations of your equipment.
+                <p></p>
+                All new parts come with a warranty, and nearly all parts that leave our manufacturing facility come backed by a warranty. Export (wood) boxing is available upon request.
+                <p></p>
+                The Locomotive Company is happy to provide quotes to any customers who need immediate attention.
+                <p></p>
+                <p>We hope to be of service.</p>
+                <p>James Koebbe
+                <p>President</p>
+                <h3>Expect a Streamlined Delivery Process</h3>
+               
+                <p>We understand that your need for parts may be urgent. That's why we have a process in place to ensure you receive your items as quickly as possible. Shipping is available, and any product we send is efficiently expedited. Local deliveries are also available; please contact us for details.</p>
+                <strong></strong>
+                <p>We do have a return policy as well. Please get in touch with us to learn more. All calls and emails are returned promptly.</p>
+                <strong></strong>
+                <p></p>
+                <strong></strong>
+                <p></p>
+            </section>
+            <!-- /main -->
+
+            <!-- Sidebar -->
+            <aside class="col-sm-4 sidebar sidebar-right">
+
+                <div class="panel">
+                    <h4></h4>
+                    <ul class="list-unstyled list-spaces">
+                        <li><a href=" {% static '' %} ">About Us</a><br>
+                            <span class="small text-muted">The Locomotive Company provides locomotive parts and over 35 years experience to the Jackson, MI area.</span></li>
+                        <li><a href=" {% static '' %} ">Specialties</a><br>
+                            <span class="small text-muted">Locomotive Engine Parts
+                            <br>Diesel Engine Repair Services
+                            <br>Locomotive Track Supplies
+                            <br>Locomotive Air Compressors</span></li>
+                        <li><a href=" {% static '' %} ">Brands</a><br>
+                            <span class="small text-muted">Alco
+                            <br>Baldwin
+                            <br>EMD
+                            <br>General Electric</span></li>
+                        <li><a href=" {% static '' %} ">Languages</a><br>
+                            <span class="small text-muted">English
+                            <br>Spanish</span></li>
+                        <li><a href=" {% static '' %} ">Year Established</a><br>
+                            <span class="small text-muted">1994</span></li>
+                    </ul>
+                </div>
+
+            </aside>
+            <!-- /Sidebar -->
+
+        </div>
+    </section>
+ 
+    {% include 'main/footer.html' %}
+
+
+
+    <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src=" {% static 'assets/js/custom.js' %} "></script>
+</body>
+</html>
